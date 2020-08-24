@@ -3,5 +3,20 @@
     "editor.trimAutoWhitespace": true,
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
-    "editor.foldingStrategy": "indentation"
+    "editor.foldingStrategy": "indentation",
+    "eslint.enable": true,
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".ts",
+            ".tsx"
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
