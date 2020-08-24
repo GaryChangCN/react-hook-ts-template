@@ -1,7 +1,7 @@
 module.exports = {
     parser: '@typescript-eslint/parser',
-    extends: ['plugin:@typescript-eslint/recommended', 'plugin:react/recommended', 'plugin:prettier/recommended'],
-    plugins: ['@typescript-eslint'],
+    extends: ['plugin:@typescript-eslint/recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'plugin:prettier/recommended'],
+    plugins: ['@typescript-eslint', 'react-hooks'],
     settings: {
         react: {
             pragma: 'React',
@@ -18,6 +18,6 @@ module.exports = {
         'react/display-name': ['off'],
         semi: ['warn', 'never'],
         'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
-        indent: ['warn', 4],
+        indent: ['warn', 4, { "SwitchCase": 1 }],
     },
 }
