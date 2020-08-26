@@ -16,6 +16,7 @@ module.exports = {
         '@typescript-eslint/curly': ['off'],
         'no-debugger': ['warn'],
         'react/display-name': ['off'],
+        'react/prop-types': ['off'],
         semi: ['warn', 'never'],
         'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
         indent: ['warn', 4, { "SwitchCase": 1 }],
